@@ -1,0 +1,15 @@
+server:
+  port: 9005
+jwt:
+  config:
+    key: zssy
+    ttl: 36000
+spring:
+  application:
+    name: springboot-jwt
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9002/eureka
+  instance:
+    prefer-ip-address: true
