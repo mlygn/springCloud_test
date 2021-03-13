@@ -25,4 +25,6 @@ public class JWTTest {
         //compact  com 表加强  pact合同  compact合同，契约
         System.out.println(jwtBuilder.compact());
     }
+
+
 }
