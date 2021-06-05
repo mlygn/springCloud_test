@@ -15,7 +15,7 @@ public class JWTUtil {
 
 
 
-    
+
     private String key;
     private long ttl;
 
