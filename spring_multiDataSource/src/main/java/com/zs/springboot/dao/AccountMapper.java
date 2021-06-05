@@ -8,6 +8,7 @@ public interface AccountMapper {
 
     int insert(Account record);
 
+    //1111
     Account selectByPrimaryKey(Integer id);
 
     List<Account> selectAll();
